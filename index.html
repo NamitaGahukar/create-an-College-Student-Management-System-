@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Veritas University — College Student Management System (CSMS)</title>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            univ: {
+              navy: '#0f1d32',
+              slate: '#1e293b',
+              blue: '#1d4ed8',
+              gold: '#b45309'
+            }
+          }
+        }
+      }
+    };
+  </script>
+
+  <!-- React 18 & ReactDOM CDN -->
+  <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+
+  <!-- Babel Standalone for JSX compilation in browser -->
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+  <!-- Chart.js for data visualization -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+
+  <!-- Custom Print & ERP Styles -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="bg-slate-50 text-slate-900 antialiased font-sans">
+
+  <!-- React Application Mounting Root -->
+  <div id="root">
+    <!-- Fallback Loading State -->
+    <div class="min-h-screen flex items-center justify-center bg-slate-950 text-white">
+      <div class="flex flex-col items-center gap-4">
+        <div class="w-10 h-10 border-4 border-blue-600 border-t-transparent rounded-full animate-spin"></div>
+        <div class="text-center">
+          <h2 class="text-lg font-bold tracking-wider uppercase">Veritas University</h2>
+          <p class="text-xs text-slate-400">Loading Academic Information System & Role Portals...</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Backend & Data Services -->
+  <script src="js/data.js"></script>
+  <script src="js/backend.js"></script>
+
+  <!-- React 18 + Tailwind Component App -->
+  <script type="text/babel" src="js/app-react.js"></script>
+</body>
+</html>

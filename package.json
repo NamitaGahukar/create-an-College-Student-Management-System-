@@ -1,0 +1,20 @@
+{
+  "name": "veritas-college-student-management-system",
+  "version": "1.0.0",
+  "description": "Enterprise-grade College Student Management System with Multi-Role Portals, React 18, and Tailwind CSS",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "serve": "python -m http.server 8000"
+  },
+  "keywords": [
+    "csms",
+    "student-management-system",
+    "academic-erp",
+    "react",
+    "tailwind",
+    "education"
+  ],
+  "author": "Veritas Academic Systems",
+  "license": "MIT"
+}
